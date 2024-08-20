@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1fornav{
+    text-transform: uppercase;
+    color:blue;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+ height: 91.5vh;
+    
+   
+}
+
+.container nav{
+    width: 80%;
+    margin:0 0;
+}
+.none{
+    list-style: none;
+   display:flex;
+
+ justify-content: space-between;
+
+}
+.none li a {
+    text-decoration: none;
+    color:black;
+}
+.none li {
+    display: inline-block;
+   
+}
+.none li :hover {
+    color:red;
+    text-decoration: solid underline red;
+}
+
+/* Style For All Buttons*/
+.btn-primary{
+    color:black;
+    text-decoration: none;
+    background-color:#20bf6b;
+    padding:5px;
+  
+   
+}
+.btn-primary:hover {
+   background-color:#26de81;
+   cursor:pointer;
+}
+
+.btn-secondary{
+    color:black;
+    text-decoration: none;
+    background-color:#eb3b5a;
+    padding:5px;
+  
+}
+.btn-secondary:hover{
+    background-color: #fc5c65;
+}
+
+.success {
+    color:rgb(95, 148, 16);
+}
+.error{
+    color:crimson;
+}
+/*Style For Tables*/
+.tbl-full {
+    width: 90%;
+   
+}
+.tbl-half{
+    width:40%;
+}
+th {
+   
+    border-bottom: black solid 1px;
+}
+td {
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+/*Style For Add Task Page*/
+.navForAddTask{
+   
+margin:15px 120px;
+
+}
+
+h3 {
+    margin:20px 0;
+}
